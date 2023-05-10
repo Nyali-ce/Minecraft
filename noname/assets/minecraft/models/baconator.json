@@ -1,11 +1,11 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "add/item/weapon_bobber/black_bobber",
-		"1": "add/item/weapon_handle/wood_handle",
-		"2": "add/item/baconator/boute",
-		"3": "add/item/baconator/lame_bacon",
-		"particle": "add/item/weapon_bobber/black_bobber"
+		"0": "item/black_bobber_weapon_bobber",
+		"1": "item/wood_handle_weapon_handle",
+		"2": "item/boute_lame_bacon",
+		"3": "item/handle_lame_bacon",
+		"particle": "item/black_bobber_weapon_bobber"
 	},
 	"elements": [
 		{
