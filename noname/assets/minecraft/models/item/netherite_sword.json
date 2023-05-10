@@ -10,23 +10,29 @@
       },
       "model": "spining_axe"
     },
-	{
+    {
       "predicate": {
         "custom_model_data": 2
       },
       "model": "baconator"
     },
-	{
+    {
       "predicate": {
         "custom_model_data": 3
       },
       "model": "sao_kirito"
     },
-	{
+    {
       "predicate": {
         "custom_model_data": 4
       },
       "model": "coupe_trophee"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4201
+      },
+      "model": "nyalice-sword"
     }
   ]
 }
