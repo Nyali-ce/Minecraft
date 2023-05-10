@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "add/item/tuque",
-		"particle": "add/item/tuque"
+		"0": "item/tuque",
+		"particle": "item/tuque"
 	},
 	"elements": [
 		{

@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "add/item/grim_reaper/hit",
-		"1": "add/item/grim_reaper/cross",
-		"2": "add/item/grim_reaper/handle",
-		"particle": "add/item/grim_reaper/hit"
+		"0": "item/hit_grim_reaper",
+		"1": "item/cross_grim_reaper",
+		"2": "item/handle_grim_reaper",
+		"particle": "item/hit_grim_reaper"
 	},
 	"elements": [
 		{

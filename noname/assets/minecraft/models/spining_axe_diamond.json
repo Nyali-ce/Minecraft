@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "add/item/spining_axe/hitdiamond",
-		"1": "add/item/spining_axe/manche",
-		"2": "add/item/spining_axe/mou",
-		"particle": "add/item/spining_axe/hit"
+		"0": "item/hitdiamond_spining_axe",
+		"1": "item/manche_spining_axe",
+		"2": "item/mou_spining",
+		"particle": "item/hit_spining_axe"
 	},
 	"elements": [
 		{

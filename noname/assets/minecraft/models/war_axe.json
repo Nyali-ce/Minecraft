@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [24, 24],
 	"textures": {
-		"0": "add/item/war_axe/hit",
-		"1": "add/item/war_axe/handle",
-		"particle": "add/item/war_axe/hit"
+		"0": "item/hit_war_axe",
+		"1": "item/handle_war_axe",
+		"particle": "item/hit_war_axe"
 	},
 	"elements": [
 		{

@@ -1,11 +1,11 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "add/item/weapon_handle/deep_blue",
-		"1": "add/item/weapon_handle/gold",
-		"2": "add/item/coupe_trophee/ruby",
-		"3": "add/item/coupe_trophee/lame",
-		"particle": "add/item/weapon_handle/deep_blue"
+		"0": "item/deep_black_weapon_handle",
+		"1": "item/gold_weapon_handle",
+		"2": "item/ruby_coupe_trophee",
+		"3": "item/lame_coupe_trophee",
+		"particle": "item/deep_black_weapon_handle"
 	},
 	"elements": [
 		{
