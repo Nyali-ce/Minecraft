@@ -1,12 +1,12 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "item/fishing_bob/global_bobw",
-		"1": "item/fishing_bob/global_bobb",
-		"2": "item/fishing_bob/bob_faces",
-		"3": "item/fishing_bob/cane",
-		"4": "item/fishing_bob/held",
-		"particle": "item/fishing_bob/global_bobw"
+		"0": "add/item/fishing_bob/global_bobw",
+		"1": "add/item/fishing_bob/global_bobb",
+		"2": "add/item/fishing_bob/bob_faces",
+		"3": "add/item/fishing_bob/cane",
+		"4": "add/item/fishing_bob/held",
+		"particle": "add/item/fishing_bob/global_bobw"
 	},
 	"elements": [
 		{
