@@ -33,6 +33,12 @@
         "custom_model_data": 4201
       },
       "model": "4201_nyalice_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4202
+      },
+      "model": "4202_nyalice_nightbreaker"
     }
   ]
 }
