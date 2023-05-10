@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "add/block/craft_plate/top",
-		"1": "add/block/craft_plate/base",
-		"particle": "add/block/craft_plate/top"
+		"0": "block/craft_plate/top",
+		"1": "block/craft_plate/base",
+		"particle": "block/craft_plate/top"
 	},
 	"elements": [
 		{
