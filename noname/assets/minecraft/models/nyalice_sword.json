@@ -2,8 +2,7 @@
   "credit": "Made with Blockbench",
   "texture_size": [32, 32],
   "textures": {
-    "0": "item/nyalice_sword",
-    "particle": "item/nyalice-sword"
+    "0": "minecraft:item/nyalice_sword"
   },
   "elements": [
     {
