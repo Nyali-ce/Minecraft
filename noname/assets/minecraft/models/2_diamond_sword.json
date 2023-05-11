@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:2_sword_template",
   "textures": {
-    "#item_texture": "minecraft:item/diamond_sword_variant2"
+    "item_texture": "minecraft:item/diamond_sword_variant2"
   }
 }
