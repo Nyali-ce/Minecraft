@@ -12,14 +12,14 @@
         },
 		{
             "predicate": {
-                "custom_model_data": 1
+                "custom_model_data": 1028
             },
             "model": "fishing_bob"
         },
 		{
             "predicate": {
                 "custom_model_data": 1,
-				"cast": 1
+				"cast": 1028
             },
             "model": "fishing_bob_cast"
         }

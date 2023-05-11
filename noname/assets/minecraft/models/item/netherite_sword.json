@@ -8,23 +8,41 @@
       "predicate": {
         "custom_model_data": 1
       },
-      "model": "spining_axe"
+      "model": "1_netherite_sword"
     },
     {
       "predicate": {
         "custom_model_data": 2
       },
-      "model": "baconator"
+      "model": "2_netherite_sword"
     },
     {
       "predicate": {
         "custom_model_data": 3
       },
+      "model": "3_netherite_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1028
+      },
+      "model": "spining_axe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1029
+      },
+      "model": "baconator"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1030
+      },
       "model": "sao_kirito"
     },
     {
       "predicate": {
-        "custom_model_data": 4
+        "custom_model_data": 1031
       },
       "model": "coupe_trophee"
     },

@@ -1,32 +1,26 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "minecraft:item/diamond_sword"
+    "layer0": "minecraft:item/golden_sword"
   },
   "overrides": [
     {
       "predicate": {
         "custom_model_data": 1
       },
-      "model": "1_diamond_sword"
+      "model": "1_golden_sword"
     },
     {
       "predicate": {
         "custom_model_data": 2
       },
-      "model": "2_diamond_sword"
+      "model": "2_golden_sword"
     },
     {
       "predicate": {
         "custom_model_data": 3
       },
-      "model": "3_diamond_sword"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 1028
-      },
-      "model": "spining_axe_diamond"
+      "model": "3_golden_sword"
     }
   ]
 }
