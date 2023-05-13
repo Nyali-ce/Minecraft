@@ -1,6 +1,5 @@
 scoreboard objectives remove reforger
 scoreboard objectives add reforger dummy "Reforger"
 
-scoreboard players set #found reforger 0
-
+schedule clear reforger:reforge
 function reforger:reforge
