@@ -2,7 +2,6 @@ execute at @e[type=minecraft:falling_block,nbt={BlockState: {Name: "minecraft:an
 execute at @e[type=minecraft:falling_block,nbt={BlockState: {Name: "minecraft:anvil"}}] positioned ~ ~-1 ~ as @e[type=item_frame,limit=1,distance=..1,sort=nearest,nbt={Facing:1b},tag=!saved] run tag @e[type=marker,limit=1,sort=nearest] add reforge
 execute at @e[type=minecraft:falling_block,nbt={BlockState: {Name: "minecraft:anvil"}}] positioned ~ ~-1 ~ as @e[type=item_frame,limit=1,distance=..1,sort=nearest,nbt={Facing:1b},tag=!saved] run tag @e[type=marker,limit=1,sort=nearest] add used
 execute at @e[type=minecraft:falling_block,nbt={BlockState: {Name: "minecraft:anvil"}}] positioned ~ ~-1 ~ as @e[type=item_frame,limit=1,distance=..1,sort=nearest,nbt={Facing:1b},tag=!saved] run data modify entity @e[type=marker,limit=1,tag=reforge,sort=nearest] data.Item.tag set from entity @s Item.tag
-execute at @e[type=minecraft:falling_block,nbt={BlockState: {Name: "minecraft:anvil"}}] positioned ~ ~-1 ~ as @e[type=item_frame,limit=1,distance=..1,sort=nearest,nbt={Facing:1b},tag=!saved] run tag @e[type=marker,limit=1,sort=nearest] add reforge
 execute at @e[type=minecraft:falling_block,nbt={BlockState: {Name: "minecraft:anvil"}}] positioned ~ ~-1 ~ as @e[type=item_frame,limit=1,distance=..1,sort=nearest,nbt={Facing:1b},tag=!saved] run tag @s add saved
 
 execute at @e[type=minecraft:falling_block,nbt={BlockState: {Name: "minecraft:anvil"}}] positioned ~ ~-1 ~ as @e[type=item_frame,limit=1,distance=..1,sort=nearest,nbt={Facing:1b},tag=saved] if entity @s[nbt={Item:{id:"minecraft:netherite_axe"}}] run loot replace entity @s container.0 loot reforger:netherite_axe
@@ -12,6 +11,6 @@ execute at @e[type=minecraft:falling_block,nbt={BlockState: {Name: "minecraft:an
 execute at @e[type=minecraft:falling_block,nbt={BlockState: {Name: "minecraft:anvil"}}] positioned ~ ~-1 ~ as @e[type=item_frame,limit=1,distance=..1,sort=nearest,nbt={Facing:1b},tag=saved] if entity @s[nbt={Item:{id:"minecraft:netherite_sword"}}] run data modify entity @s Item.tag set from entity @e[type= minecraft:marker,limit=1,sort=nearest,tag=reforge] data.Item.tag
 execute at @e[type=minecraft:falling_block,nbt={BlockState: {Name: "minecraft:anvil"}}] positioned ~ ~-1 ~ as @e[type=item_frame,limit=1,distance=..1,sort=nearest,nbt={Facing:1b},tag=saved] if entity @s[nbt={Item:{id:"minecraft:netherite_sword"}}] run data modify entity @s Item.tag.CustomModelData set from entity @e[type=minecraft:marker,limit=1,sort=nearest,tag=reforge] data.Item.tag.CustomModelData
 
-execute unless entity @e[type=minecraft:item_frame,tag=saved] run kill @e[type=minecraft:marker,tag=reforge]
+execute as @e[type=minecraft:marker,tag=reforge] unless entity @e[type=minecraft:item_frame,limit=1,distance=..1,sort=nearest,nbt={Facing:1b},tag=saved] run kill @s
 
 schedule function reforger:reforge 1t
