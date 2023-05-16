@@ -27,9 +27,9 @@ tier 1:
 1.shortSword: faster attack speed, less damage
 2.longSword: slower attack speed, more damage, knockback
 tier 2:
-3.poisonDagger: less damage, poison effect
-4.iceBlade: less damage, slowness effect
-5.fireBlade: less damage, fire effect (better than fire aspect)
+3.poisonDagger: poison effect
+4.iceBlade: slowness effect
+5.fireBlade: fire effect (better than fire aspect)
 tier 3:
-6.enderBlade: less damage, teleport effect on right click
+6.enderBlade: teleport effect on right click
 7.Marto
