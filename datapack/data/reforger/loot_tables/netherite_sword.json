@@ -14,7 +14,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{CustomModelData:1, reforged:0b}"
+              "tag": "{CustomModelData:1, reforged:0b,HideFlags:2}"
             },
             {
               "function": "set_attributes",
@@ -34,6 +34,27 @@
                   "slot": "mainhand"
                 }
               ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Tier I Reforge",
+                  "color": "gold"
+                },
+                {
+                  "text": "A sword that has been reforged to increase its attack speed at the cost of attack damage.",
+                  "color": "gray"
+                },
+                {
+                  "text": "+40% Attack Speed",
+                  "color": "blue"
+                },
+                {
+                  "text": "-20% Attack Damage",
+                  "color": "red"
+                }
+              ]
             }
           ]
         },
@@ -48,7 +69,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{CustomModelData:2,reforged:0b}"
+              "tag": "{CustomModelData:2,reforged:0b,HideFlags:2}"
             },
             {
               "function": "set_attributes",
@@ -68,6 +89,27 @@
                   "slot": "mainhand"
                 }
               ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Tier I Reforge",
+                  "color": "gold"
+                },
+                {
+                  "text": "A sword that has been reforged to increase its attack damage at the cost of attack speed.",
+                  "color": "gray"
+                },
+                {
+                  "text": "+40% Attack Damage",
+                  "color": "blue"
+                },
+                {
+                  "text": "-20% Attack Speed",
+                  "color": "red"
+                }
+              ]
             }
           ]
         },
@@ -82,7 +124,24 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{CustomModelData:3,reforged:0b}"
+              "tag": "{CustomModelData:3,reforged:0b,HideFlags:2}"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Tier II Reforge",
+                  "color": "gold"
+                },
+                {
+                  "text": "A sword that has been reforged to poison their target.",
+                  "color": "gray"
+                },
+                {
+                  "text": "Poison II for 10 seconds",
+                  "color": "green"
+                }
+              ]
             }
           ]
         }
