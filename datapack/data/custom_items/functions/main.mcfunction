@@ -1,4 +1,4 @@
-function custom_items:poison_dagger
+function custom_items:3_poison_dagger
 
 scoreboard players set @a damage_dealt 0
 
