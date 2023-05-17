@@ -29,8 +29,8 @@
                 {
                   "attribute": "generic.attack_speed",
                   "name": "generic.attack_speed",
-                  "amount": 0.4,
-                  "operation": "multiply_total",
+                  "amount": -2.08,
+                  "operation": "addition",
                   "slot": "mainhand"
                 }
               ]
@@ -43,7 +43,7 @@
                   "color": "gold"
                 },
                 {
-                  "text": "A sword that has been reforged to increase its attack speed at the cost of attack damage.",
+                  "text": "Short Sword",
                   "color": "gray"
                 },
                 {
@@ -84,8 +84,8 @@
                 {
                   "attribute": "generic.attack_speed",
                   "name": "generic.attack_speed",
-                  "amount": -0.2,
-                  "operation": "multiply_total",
+                  "amount": -2.72,
+                  "operation": "addition",
                   "slot": "mainhand"
                 }
               ]
@@ -98,7 +98,7 @@
                   "color": "gold"
                 },
                 {
-                  "text": "A sword that has been reforged to increase its attack damage at the cost of attack speed.",
+                  "text": "Long Sword",
                   "color": "gray"
                 },
                 {
@@ -134,7 +134,7 @@
                   "color": "gold"
                 },
                 {
-                  "text": "A sword that has been reforged to poison their target.",
+                  "text": "Poison Dagger",
                   "color": "gray"
                 },
                 {

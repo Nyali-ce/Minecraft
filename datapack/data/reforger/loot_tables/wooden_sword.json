@@ -14,7 +14,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{CustomModelData:1, reforged:0b}"
+              "tag": "{CustomModelData:1, reforged:0b,HideFlags:2}"
             },
             {
               "function": "set_attributes",
@@ -29,9 +29,30 @@
                 {
                   "attribute": "generic.attack_speed",
                   "name": "generic.attack_speed",
-                  "amount": 0.4,
-                  "operation": "multiply_total",
+                  "amount": -2.08,
+                  "operation": "addition",
                   "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Tier I Reforge",
+                  "color": "gold"
+                },
+                {
+                  "text": "Short Sword",
+                  "color": "gray"
+                },
+                {
+                  "text": "+40% Attack Speed",
+                  "color": "blue"
+                },
+                {
+                  "text": "-20% Attack Damage",
+                  "color": "red"
                 }
               ]
             }
@@ -48,7 +69,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{CustomModelData:2,reforged:0b}"
+              "tag": "{CustomModelData:2,reforged:0b,HideFlags:2}"
             },
             {
               "function": "set_attributes",
@@ -63,9 +84,30 @@
                 {
                   "attribute": "generic.attack_speed",
                   "name": "generic.attack_speed",
-                  "amount": -0.2,
-                  "operation": "multiply_total",
+                  "amount": -2.72,
+                  "operation": "addition",
                   "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Tier I Reforge",
+                  "color": "gold"
+                },
+                {
+                  "text": "Long Sword",
+                  "color": "gray"
+                },
+                {
+                  "text": "+40% Attack Damage",
+                  "color": "blue"
+                },
+                {
+                  "text": "-20% Attack Speed",
+                  "color": "red"
                 }
               ]
             }
@@ -82,7 +124,24 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{CustomModelData:3,reforged:0b}"
+              "tag": "{CustomModelData:3,reforged:0b,HideFlags:2}"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Tier II Reforge",
+                  "color": "gold"
+                },
+                {
+                  "text": "Poison Dagger",
+                  "color": "gray"
+                },
+                {
+                  "text": "Poison II for 10 seconds",
+                  "color": "green"
+                }
+              ]
             }
           ]
         }
