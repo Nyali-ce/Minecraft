@@ -21,6 +21,18 @@
         "custom_model_data": 3
       },
       "model": "3_wooden_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "4_wooden_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "5_wooden_sword"
     }
   ]
 }
