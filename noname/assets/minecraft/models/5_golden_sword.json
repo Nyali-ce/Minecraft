@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:5_sword_template",
+  "textures": {
+    "item_texture": "minecraft:item/golden_sword_variant5"
+  }
+}
