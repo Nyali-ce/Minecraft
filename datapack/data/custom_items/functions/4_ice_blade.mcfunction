@@ -1,2 +1,2 @@
-execute at @a[nbt={SelectedItem: {tag: {CustomModelData: 4}}},scores={damage_dealt=1..}] as @e[nbt={HurtTime: 10s},distance=..8] run effect give @s slowness 10 2 true
-execute at @a[nbt={SelectedItem: {tag: {CustomModelData: 4}}},scores={damage_dealt=1..}] as @e[nbt={HurtTime: 10s},distance=..8] run effect give @s blindness 10 2 true
+execute at @a[nbt={SelectedItem: {tag: {CustomModelData: 4}}},scores={damage_dealt=1..}] as @e[nbt={HurtTime: 10s},distance=..8] run effect give @s slowness 4 0 true
+execute at @a[nbt={SelectedItem: {tag: {CustomModelData: 4}}},scores={damage_dealt=1..}] as @e[nbt={HurtTime: 10s},distance=..8] run effect give @s blindness 1 2 true
