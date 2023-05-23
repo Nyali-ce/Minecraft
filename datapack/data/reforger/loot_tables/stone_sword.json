@@ -138,8 +138,44 @@
                   "color": "gray"
                 },
                 {
-                  "text": "Poison II for 10 seconds",
+                  "text": "Poison II for 4 seconds",
                   "color": "green"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:stone_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:4,reforged:0b,HideFlags:2}"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Tier II Reforge",
+                  "color": "gold"
+                },
+                {
+                  "text": "Ice Sword",
+                  "color": "gray"
+                },
+                {
+                  "text": "Slowness I for 4 seconds",
+                  "color": "light_blue"
+                },
+                {
+                  "text": "Blindness III for 1 seconds",
+                  "color": "light_blue"
                 }
               ]
             }
