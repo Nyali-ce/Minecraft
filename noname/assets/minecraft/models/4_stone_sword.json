@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:4_sword_template",
+  "textures": {
+    "item_texture": "minecraft:item/stone_sword_variant4"
+  }
+}
