@@ -35,6 +35,12 @@
         "custom_model_data": 5
       },
       "model": "5_golden_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "6_golden_sword"
     }
   ]
 }

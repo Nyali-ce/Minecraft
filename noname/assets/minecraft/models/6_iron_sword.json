@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:6_sword_template",
+  "textures": {
+    "item_texture": "minecraft:item/iron_sword_variant6"
+  }
+}

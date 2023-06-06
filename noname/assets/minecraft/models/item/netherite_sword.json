@@ -36,6 +36,12 @@
     },
     {
       "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "6_netherite_sword"
+    },
+    {
+      "predicate": {
         "custom_model_data": 1028
       },
       "model": "spining_axe"

@@ -33,6 +33,12 @@
         "custom_model_data": 5
       },
       "model": "5_iron_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "6_iron_sword"
     }
   ]
 }
