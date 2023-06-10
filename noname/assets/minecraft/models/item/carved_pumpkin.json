@@ -6,6 +6,12 @@
         "custom_model_data": 1028
       },
       "model": "tuque"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1029
+      },
+      "model": "1029_carved_pumpkin_antennamask"
     }
   ]
 }
