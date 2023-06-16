@@ -1,0 +1,1 @@
+execute as @a[nbt={SelectedItem: {tag: {CustomModelData: 5}}},scores={damage_dealt=1..}] at @s anchored eyes positioned ^ ^ ^5 positioned ^ ^ ^-5 unless block ^ ^ ^5 air run tp @s ^ ^ ^5 facing entity @s eyes
