@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "item/1030_carved_pumpkin_robloxFace",
-		"particle": "item/1030_carved_pumpkin_robloxFace"
+		"0": "item/1030_carved_pumpkin_robloxface",
+		"particle": "item/1030_carved_pumpkin_robloxface"
 	},
 	"elements": [
 		{
