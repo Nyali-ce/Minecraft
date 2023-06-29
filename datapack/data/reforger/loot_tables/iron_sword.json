@@ -180,6 +180,102 @@
               ]
             }
           ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:5,reforged:0b,HideFlags:2}"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Tier II Reforge",
+                  "color": "gold"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:6,reforged:0b,HideFlags:2}"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Tier II Reforge",
+                  "color": "gold"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:7,reforged:0b,HideFlags:2}"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Tier II Reforge",
+                  "color": "gold"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:8,reforged:0b,HideFlags:2}"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Tier II Reforge",
+                  "color": "gold"
+                }
+              ]
+            }
+          ]
         }
       ]
     }
