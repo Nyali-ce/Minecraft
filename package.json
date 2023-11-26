@@ -1,0 +1,20 @@
+{
+  "name": "minecraft",
+  "version": "1.0.0",
+  "description": "This repository contains all the datapacks, texture packs and programs used on the noname server.",
+  "main": "dist/loot_tables.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "compile": "build && node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
