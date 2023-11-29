@@ -26,7 +26,6 @@ execute as @e[type=item_frame,nbt={Item: {id: "minecraft:netherite_sword", tag: 
 
 # merge marker item data with item frame item data
 execute as @e[type=item_frame,nbt={Item: {tag: {reforged: 0b}}}] at @s run data modify entity @s Item.tag merge from entity @e[type=minecraft:marker,limit=1,sort=nearest,tag=reforge,distance=..2] data.Item.tag
-
 # replace block below (reforge cost)
 execute at @e[type=item_frame,nbt={Item: {id: "minecraft:wooden_sword", tag: {reforged: 0b}}}] run setblock ~ ~-1 ~ mangrove_planks
 execute at @e[type=item_frame,nbt={Item: {id: "minecraft:stone_sword", tag: {reforged: 0b}}}] run setblock ~ ~-1 ~ mangrove_planks
@@ -39,7 +38,7 @@ execute at @e[type=item_frame,nbt={Item: {id: "minecraft:netherite_sword", tag: 
 execute as @e[type=item_frame,nbt={Item: {tag: {reforged: 0b}}}] run data modify entity @s Item.tag merge value {reforged: 1b}
 
 # kill marker
-execute as @e[type=minecraft:marker,tag=reforge] unless entity @e[type=minecraft:item_frame,limit=1,distance=..2,sort=nearest,nbt={Facing: 1b},tag=saved] run kill @s
+execute as @e[type=minecraft:marker,tag=reforge] at @s unless entity @e[type=minecraft:item_frame,limit=1,distance=..2,sort=nearest,nbt={Facing: 1b},tag=saved] run kill @s
 
 # execute every game tick
 schedule function reforger:reforge 1t
